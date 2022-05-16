@@ -13,7 +13,8 @@ export default function ContactsList({phones, onDelete}) {
     <ListGroup>
       <ul>
         {filtered.map(({ phone, name, id }) => 
-          <li key={id}>{name}: {phone} <button onClick={() => onDelete(id)}>X</button></li>
+          <li key={id} className="item">{name}: {phone} <button onClick={() => onDelete(id)}
+            >X</button></li>
         )}
       </ul>
     </ListGroup>

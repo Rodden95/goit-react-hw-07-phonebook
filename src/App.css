@@ -7,3 +7,13 @@
   display: flex;
   justify-content: space-between;
 }
+.item{
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-between;
+  margin: 5px 0;
+}
+.item button {
+  border: none;
+  border-radius: 50%;
+}
